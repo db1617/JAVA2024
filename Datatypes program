@@ -1,0 +1,48 @@
+package java2024;
+
+public class Datatypesdemo {
+
+	public static void main(String[] args) {
+	// Numeric Data types 
+		
+	int a = 100; int b = 200; 
+	//System.out.println("The value of a is:" +a);
+	//System.out.println("The value of a is:" +b);
+	//System.out.println("the sum of a and b is:"+a+b); // the output : the sum of a and b is:100200
+	// when using 2 plus operators it is confusing whether concatenation or sum operation
+	//System.out.println("the sum of a and b is:"+(a+b)); // Inserting braces 
+	byte by=125;
+	System.out.println(by);
+	short sh = 3535;
+	System.out.println(sh);
+	long lg = 123456789L; // uppercase L symbol is representing literal for long = L , for float = F
+	System.out.println(lg);
+	
+	// Decimal Data type - Float , double 
+	
+	float fl=15.5f; // f should be given in the end 
+	System.out.println(fl);
+	double dl = 1234.67899;
+	System.out.println(dl); // for double we don't need any literal 
+	// for long and float literal should be added
+	
+char c = 'D'; // single characters represent single quotations
+System.out.println(c);
+String db = "divya";
+System.out.println(db);
+
+//char ch = 'ABC';//Invalid
+//String st = 'ABC';// Invalid 
+//String str1 = 'A'; // Invalid 
+String str2 = "A"; // Valid 
+System.out.println(str2);
+
+boolean bool = true; // It allows only true or false and double quotations are allowed 
+System.out.println(bool);
+
+//boolean bool1 = "true"; // Invalid "" - using this will be treated as string 
+//boolean bool2 = "false"; // Invalid 
+//String Bool1 = true; // Invalid 
+String bool3 = "true"; // Valid 
+}}
+
