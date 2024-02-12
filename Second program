@@ -1,0 +1,16 @@
+package java2024;
+
+public class variablesdemo {
+
+	public static void main(String[] args) {
+	//int a; // Declaration 
+	//a=100; // assignment 
+int a = 200; // Declaration and assignment in one line 
+System.out.println(a);
+
+a = 500;
+System.out.println(a); // it will print the latest values 
+
+	}
+
+}
