@@ -5,12 +5,33 @@ public class variablesdemo {
 	public static void main(String[] args) {
 	//int a; // Declaration 
 	//a=100; // assignment 
-int a = 200; // Declaration and assignment in one line 
+/*int a = 200; // Declaration and assignment in one line 
 System.out.println(a);
 
 a = 500;
-System.out.println(a); // it will print the latest values 
+System.out.println(a); // it will print the latest values */
 
+		//Approach1
+		
+		/*int a =100;
+		int b=200;
+		int c=300;
+	*/
+		// If for example the variable contains different data types use approach 1
+		//Approach2
+		/*int a, b, c;
+		a=100;
+		b=200;
+		c=300;*/ // This approach is applicable only for same data type 
+		
+		//Approach3
+		int a = 100; int b=200; int c =300;  // This approach is also applicable only for same data type
+		/* System.out.println("the value of a is:"+a);
+		 System.out.println(b);
+		 System.out.println(c); */
+		System.out.println(a+" "+b+" "+c); // 100 200 300 
+		
+	
 	}
 
 }
