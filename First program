@@ -1,0 +1,17 @@
+package java2024;
+
+public class Javafirstprogram12feb2024 {
+
+	public static void main(String[] args) {
+		System.out.println("Welcome to code divya");
+		//System.out.println(10+20); - Single line commenting 
+		/*System.out.println("Welcome");
+		System.out.println("Welcome");
+		System.out.println("Welcome");
+		System.out.println("Welcome");
+		System.out.println("Welcome");
+		System.out.println("Welcome"); - Multiple lines commenting 
+		*/
+	}
+
+}
