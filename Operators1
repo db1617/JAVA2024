@@ -1,0 +1,53 @@
+package java2024;
+
+public class Operators1 {
+
+	public static void main(String[] args) {
+		// Arithmetic operators (+ - * / % )
+		int a = 20 ; int b = 10;
+		int c = a+b;
+		//System.out.println("sum of a and b is:"+(a+b));// the + sign represents concatenation operation 
+		System.out.println("the sum of a and b is:"+c); 
+		System.out.println("difference of a and b is:"+(a-b));
+		System.out.println("multiplication of a and b is:"+(a*b));
+		System.out.println("Divison of a and b is:"+(a/b));
+		System.out.println("modulo divison of a and b is:"+(a%b));
+		
+		// Relational operators < , > <= ,>= , != , ==
+		// Returns the boolean values - true and false
+		System.out.println(a>b); // true
+		System.out.println(a<b);// false
+		System.out.println(a>=b); // true
+		System.out.println(a<=b); // false
+		
+		b=20; // again using int means it will show error 
+		
+		System.out.println(a>=b); // true 
+		System.out.println(a<=b); // true 
+		System.out.println(a!=b); // false
+		System.out.println(a==b); // true
+		
+		boolean res = a<b;
+		System.out.println(res);
+		
+		// Logical operators && , || , !
+		
+		boolean x = true;
+		boolean y = false ; 
+		
+		System.out.println(x && y); // false 
+		System.out.println(x || y); // true
+		System.out.println(!x ); // false 
+		System.out.println(!y); // true 
+		
+		boolean b1= 10>20;// false
+		System.out.println(b1);
+		boolean b2 = 20>10;// true 
+		System.out.println(b2);
+		System.out.println(b1 && b2); // false 
+		System.out.println(b1 || b2); // true 
+		System.out.println(10<20 && 20>10); // true 
+		// we can combine the relational and logical operators according to our requirement 
+	}
+
+}
